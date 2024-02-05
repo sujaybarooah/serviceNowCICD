@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open 'AWS account request' catalog item</description>
+        <display_name>Open a Catalog Item</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Open a Catalog Item">2516c0e1c332220076173b0ac3d3ae39</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-05 02:46:59</sys_created_on>
+        <sys_id>774254afc80402107f448356969dc687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Catalog Item</sys_name>
+        <sys_package display_value="CICD DemoApp" source="x_snc_cicd_demoapp">1e8d5393c84002107f448356969dc67d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CICD DemoApp">1e8d5393c84002107f448356969dc67d</sys_scope>
+        <sys_update_name>sys_atf_step_774254afc80402107f448356969dc687</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-05 02:46:59</sys_updated_on>
+        <table/>
+        <test display_value="My New Test- Sujay">dad110afc80402107f448356969dc668</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=774254afc80402107f448356969dc687"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>774254afc80402107f448356969dc687</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-05 02:46:59</sys_created_on>
+        <sys_id>0c721cafc80402107f448356969dc609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-05 02:46:59</sys_updated_on>
+        <value>5a1efa5947520510f53d37d2846d439b</value>
+        <variable display_value="Catalog item">b0d64ce1c332220076173b0ac3d3ae95</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2516c0e1c332220076173b0ac3d3ae39^id=774254afc80402107f448356969dc687"/>
+</record_update>
