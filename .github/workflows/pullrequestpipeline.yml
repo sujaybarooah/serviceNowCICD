@@ -25,12 +25,12 @@ jobs:
         id: atf_test_dev
         uses: ServiceNow/sncicd-tests-run@1.0.0
         with:
-          browserName:chrome
-          browserVersion:latest
-          osName:linux
-          osVersion:latest
+          browserName: chrome
+          browserVersion: latest
+          osName: linux
+          osVersion: latest
           testSuiteSysId: ${{ secrets.TEST_SUITE_ID }}
-          testSuiteName:My New Test Suite- Sujay 
+          testSuiteName: My New Test Suite- Sujay
         env:
           snowUsername: ${{ secrets.NOW_USERNAME }}
           snowPassword: ${{ secrets.NOW_PASSWORD }}
