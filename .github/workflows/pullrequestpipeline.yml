@@ -10,9 +10,7 @@ jobs:
   # Purpose of this job is to execute ATF on current branch
     name: Run ATF on dev instance
     runs-on: ubuntu-latest
-
     steps:
-
       - name: ServiceNow CI/CD Apply Changes
         uses: ServiceNow/sncicd-apply-changes@1.2.1
         env:
